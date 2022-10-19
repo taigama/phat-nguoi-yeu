@@ -2,10 +2,15 @@
     <title>Đang phát gấu...</title>
 	<link rel="icon" href="favicon.ico">
 	<script>
-        function goGo()
+        function go1()
         {
-            window.location.href = "https://fb.me/hoangkhang1995"
+            window.location.href = "fb://page/100003685219279"
         }
+		
+	function go2()
+	{
+	    window.open("fb://page/100003685219279");
+	}
     </script>
 </head>
 <body style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;">
@@ -66,7 +71,7 @@
     -webkit-text-fill-color: #fff; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #f5f;
-" onclick="goGo()"> Có </button>
+" onclick="go1()"> Có </button>
 <button style="
     position: absolute;
     transform: translateX(-50%);
@@ -81,7 +86,7 @@
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #f5f;
     font-weight: 600;
-" onclick="goGo()"> Vẫn là có nhưng màu hồng </button>
+" onclick="go2()"> Vẫn là có nhưng màu hồng </button>
     
     </div>
     
