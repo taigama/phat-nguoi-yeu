@@ -8,7 +8,7 @@
 
 	    // detect device:
 	    // https://stackoverflow.com/questions/21741841/detecting-ios-android-operating-system
-	    if ((/android/i.test(userAgent)) || (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream)
+	    if ((/android/i.test(userAgent)) || (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream))
 	    {
 		window.open("fb://profile/100003685219279");
 		return;
